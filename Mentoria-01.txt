@@ -1,0 +1,34 @@
+14/09/2021
+
+Documentação de Referência:
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Object-oriented_JS
+
+Programação Orientada a Objetos:
+
+Tudo é Objeto:
+
+Objeto - é uma variavel com classes que podem ter:
+Dados - Variáveis;
+Métodos - Ações / Funções
+
+A idéia básica da OOP é que usamos objetos para modelar coisas do mundo real que queremos representar dentro de nossos programas,
+e / ou fornecer uma maneira simples de acessar funcionalidades que de outra forma seriam difíceis ou impossíveis de usar.
+
+Os objetos podem conter dados e códigos relacionados, que representam informações sobre o que você está tentando modelar 
+e a funcionalidade ou o comportamento que você deseja ter. Dados de objeto (e muitas vezes, funções também) podem ser armazenados
+ordenadamente (a palavra oficial é encapsulados) dentro de um pacote de objetos (que pode ser dado um nome específico para se referir,
+que é às vezes chamado de namespace), tornando fácil de estruturar e acessar; objetos também são comumente usados como armazenamentos 
+de dados que podem ser facilmente enviados pela rede.
+
+Conceito de Abstração - é um modelo simples de uma coisa mais complexa, que representa seus aspectos mais importantes de uma forma que é fácil trabalhar 
+com os objetivos do nosso programa.
+
+Instâncias de objeto — objetos que contêm os dados e a funcionalidade definidos na classe.
+
+Quando uma instância de objeto é criada a partir de uma classe, a função construtora da classe é executada para criá-la. 
+Esse processo de criação de uma instância de objeto de uma classe é chamado de instanciação — a instância do objeto é instanciada a partir da classe.
+
+Em OOP, podemos criar novas classes com base em outras classes — essas novas classes filhas podem herdar os recursos de dados e código de sua classe pai, 
+para que você possa reutilizar a funcionalidade comum a todos os tipos de objetos em vez de duplicá-los. Onde a funcionalidade difere entre as classes, você pode definir recursos especializados diretamente sobre eles, conforme necessário.
+
+
