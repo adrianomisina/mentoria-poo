@@ -6,6 +6,7 @@ var ContaPoupanca = require('./ContaPoupanca.js');
 
 var Cliente = require('./Cliente.js')
 
+var Banco = require('./Banco')
 
 const cc1 = new ContaCorrente(100, 56, 339, 10);
 const cc2 = new ContaPoupanca(30, 89, 76, 40);
@@ -32,13 +33,16 @@ var cc3 = {};
 // console.log(typeof cc3.conta2);
 // console.log(cc3.conta3);
 
-cliente1 = new Cliente ('Adelino', 12345678910, cc1);
-console.log(cliente1)
+ cliente1 = new Cliente ('Adelino', 12345678910, cc1);
+// console.log(cliente1)
 
-cliente1.conta.deposito(50);
-console.log(cliente1);
+// cliente1.conta.deposito(50);
+// console.log(cliente1);
 
-cliente1.atualizarHistorico('fez um deposito', 'dep', 5);
-cliente1.atualizarHistorico('fez um saque', 'saque', 25);
-cliente1.retornarHistorico();
+// cliente1.atualizarHistorico('fez um deposito', 'dep', 5);
+// cliente1.atualizarHistorico('fez um saque', 'saque', 25);
+// cliente1.retornarHistorico();
 
+
+Banco1 = new Banco (cliente1)
+console.log(Banco1)
